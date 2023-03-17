@@ -1,0 +1,926 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------contact--------- */
+.contact-body{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.contact i{
+    
+    font-size: 10px;
+    padding-right: 1rem;
+}
+.email i,small{
+    font-size: 12px;
+    
+}
+.email span{
+   color:rgb(81, 74, 74); 
+   
+}
+
+
+/* ----------navbar---------- */
+.big-blob{
+    background: url('images/big_ball2.jpg') no-repeat;
+    background-size: 60% 100%;
+}
+
+.navbar{
+    padding-top: 1.5rem;
+}
+.navbar ul li{
+    font-size: 0.9rem;
+    color:black;
+    font-weight: 600;
+}
+.navbar button{
+    font-size: 0.9rem ;
+    border-radius: 50px;
+    padding: 0.3rem 1.5rem;
+}
+
+
+
+
+/* <!-- --------header----- --> */
+.header{
+    display: flex;
+    margin-top: 6rem;
+}
+.header-content{
+    width: 45%;
+}
+.header-content h5{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.header-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.7rem;
+}
+.header-content p{
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.header-content button{
+    border-radius:100px;
+    font-size:12px ;
+    padding: 0.5rem 2.3rem;
+    font-weight: 700;
+    background-color:#fff;
+    margin-top: 1rem;
+}
+.header-img img{
+    width: 90%;
+}
+
+/* -------bubble part------- */
+.bubble{
+    display: flex;
+    margin-top: 9rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.bubble1{
+    border-radius:78% 21% 41% 57% / 57% 48% 32% 44%;
+    width: 20rem;
+    height:15rem ;
+    border-style: solid;
+    border-color:rgb(245, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bubble1 ul{
+    line-height: 1rem;
+}
+
+.bubble1 ul li span{
+    color:black;
+    font-size: 11px;
+    
+}
+.red-bubble{
+    margin-left: -90px;
+    margin-right: -70px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+ }
+ .red-bubble img{
+    width: 75%;
+ }
+
+ .red-bubble h4{
+    color:white;
+    position: absolute;
+ }
+
+.bubble2{
+    transform: rotate(180deg);
+    border-radius:78% 21% 41% 57% / 57% 48% 32% 44%;
+    width: 20rem;
+    height:15rem ;
+    box-shadow:-4px 4px 4px 4px rgba(193, 191, 191, 0.1),4px -4px 4px 4px rgba(168, 166, 166, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble2 ul{
+    transform: rotate(180deg);
+    line-height: 1rem;
+}
+.bubble2 ul li span{
+    color:black;
+    font-size: 11px;
+}
+
+/* ----------------courses--------- */
+.courses{
+    background: url('images/wave1.jpg') no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 5rem;
+}
+.wave1-content{
+    padding: 5rem 0;
+}
+.wave1-content .small-ball{
+    position: relative;
+}
+.small-ball h4{
+    position: absolute;
+    top: 2.5rem;
+    left: 1.1rem;
+}
+.white-5-ball h5{
+    margin-top: -3.5rem;
+}
+.white-5-ball p{
+   margin-top: 2.5rem; 
+   margin-bottom: 0.4rem;
+   font-size:1.2rem;
+}
+.white-5-ball small{
+    font-size: 0.7rem;
+}
+
+
+/* ----------------feedback---------------*/
+.feedback{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.feedback img{
+    margin-right: 3rem;
+}
+.fa-quote-left{
+    color:rgb(227, 225, 225);
+    font-size: 1.7rem;
+    margin-right:1rem;
+}
+.feedback-paragraph{
+    text-transform: lowercase;
+    font-size: 14px;
+    color: rgb(161, 160, 160);
+}
+.arrows{
+    font-size: 1.5rem;
+    color:rgb(152, 150, 150);
+}
+
+/* <!-- ----------Trainer-------------- --> */
+.trainer{
+    background: url('images/wave2.jpg') no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 3.5rem;
+}
+.wave2-content{
+    padding: 12rem 0 8rem 0;
+    justify-content: space-between;
+}
+.trainer-content{
+    width: 42%;
+}
+.trainer-content p{
+    font-size: 13px;
+}
+.trainer-img{
+    width: 45%;
+    margin-top: 2rem;
+}
+.trainer-img img{
+    width: 80%; 
+}
+
+/* ..............book us----------- */
+.book{
+  margin-bottom: 3rem;  
+}
+.book  p{
+  font-size: 12px;
+  color:gray;
+}
+.book-row1{
+    margin-top: 2rem;
+}
+.book-row2{
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+/* --------------certificate----------- */
+.certificate{
+    background: url('images/Untitled-5.png') no-repeat;
+    background-size:cover;
+    margin-bottom: 3.5rem;
+    background-color:rgb(32, 42, 56);
+    color:#fff;
+    padding: 3rem 0;
+}
+.certificate-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.certificate p{
+    font-size: 12px;
+}
+.certificate button{
+    border-radius:100px;
+    font-size:12px ;
+    padding: 0.4rem 2.3rem;
+    font-weight: 600;
+}
+
+/* ------------join------------ */
+.join{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.join h4{
+    font-weight: 600;
+}
+.join p{
+    color:gray;
+    font-size: 14px;
+}
+.input{
+    display: flex;
+}
+.join input{
+    font-size: 14px;
+    background-color:rgb(240, 240, 240);
+    padding: 5px 0 5px 10px;
+    border: none;
+    width: 100%;
+}
+.join textarea{
+    font-size: 14px;
+    background-color:rgb(240, 240, 240);
+    padding: 5px 0 5px 10px;
+    border: none;
+    width: 100%;
+}
+.join button{
+    border-radius:100px;
+    font-size:12px ;
+    padding: 0.4rem 2rem;
+    font-weight: 600;
+}
+
+/* -----------About us------------ */
+.aboutUs{
+    font-weight: 500;
+    color:rgb(121, 121, 121);
+}
+.company-content li{
+    list-style: none;
+    font-size: 12px;
+    margin-left: -2rem;
+    margin-bottom:0.5rem ;
+
+}
+.company-content li::before{
+    content: "\003E";
+}
+.get-direction{
+    margin-top: 1rem;
+}
+.get-direction a{
+    color:#45d086;
+    font-size: 14px;
+    font-weight: 700;
+}
+.subscribe{
+    margin-top: 1.5rem;
+    background-color:rgb(240, 240, 240);
+    padding: 1rem 0 1rem 1rem;
+    border-radius:5px;
+    font-weight: 700;
+    color:rgb(174, 170, 170);
+}
+.subscribe span{
+    color:#45d086;
+    font-size: 1.5rem;
+}
+
+/* ............footer------------ */
+.footer{
+    background-color:black;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 12px;
+}
+.footer-content .social-icons i{
+    margin-left: 1rem;
+    font-size: 10px;
+}
+
+
+/* ----------------------media query------------------ */
+
+@media screen and (max-width:992px){
+  
+    /* ----------header------------- */
+    .header{
+        margin-top: 5.8rem;
+    }
+    .header-content{
+        width: 60%;
+    }
+    .header-content h5{
+        font-size: 2.3rem;
+    }
+    .header-content h1{
+        font-size: 3.7rem;
+        margin-bottom: 1.5rem;
+    }
+    .header-content p{
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+    .header-content button{
+        margin-top: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:880px){
+
+    /* ------------About us------------ */
+    .subscribe{
+        padding: 0.3rem 0 0.3rem 0.5rem;
+    }
+
+    /* -------bubble part------- */
+.bubble{
+    margin-top: 4rem;
+}
+
+}
+
+@media screen and (max-width:769px){
+
+   
+.big-blob{
+    height: 50vh;
+}
+
+/* <!-- --------header----- --> */
+.header{
+    margin-top: 2.5rem;
+}
+.header-content{
+    width: 80%;
+}
+.header-content h5{
+    font-size: 1.5rem;
+}
+.header-content h1{
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+}
+.header-content button{
+    margin-top: 0rem;
+}
+.header-img img{
+    width: 100%;
+}
+
+/* -------bubble part------- */
+
+.bubble1{
+    width: 19.5rem;
+    height:12rem ;
+}
+.bubble1 ul{
+    line-height: 0.9rem;
+}
+
+.bubble1 ul li span{
+    font-size: 10px;
+}
+.red-bubble{
+    margin-left: -30px;
+    margin-right: -25px;
+    margin-top: -30px;
+ }
+ .red-bubble img{
+    width: 90%;
+ }
+
+ .red-bubble h4{
+   font-size: 18px;
+ }
+
+.bubble2{
+    width: 19rem;
+    height:12.5rem ;
+}
+.bubble2 ul{
+    line-height: 0.9rem;
+}
+.bubble2 ul li span{
+    font-size: 10px;
+}
+ 
+
+/* ----------courses---------- */
+.white-5-ball{
+    margin-bottom: 2.5rem;
+}
+
+/* --------------feedback------------- */
+.feedback{
+    display: block;
+    text-align: center;
+}
+.feedback-content{
+    margin-top: 2rem;
+}
+
+/* ----------Trainer-------------- */
+.wave2-content{
+    display: block;
+    justify-content: center;
+}
+.trainer-content{
+    width: 100%;
+}
+.trainer-content h3{
+    text-align: center;
+}
+.trainer-content p{
+    font-size: 13px;
+}
+.trainer-img{
+    width: 80%;
+    margin-top: 2rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.trainer-img img{
+    width: 100%;
+}
+
+
+/* -----------About us-------- */
+.aboutUs{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.aboutUs .col-md-3{
+    margin-bottom: 2rem;
+}
+.company-content{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe{
+   margin-top: 0.5rem;
+}
+
+/* --------------certificate----------- */
+.certificate-content{
+    width: 98%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ------------join------------ */
+.join{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.navbar{
+    padding-top: 1.3rem;
+}
+
+}
+
+
+
+@media screen and (max-width:667px){
+
+.courses{
+   
+}
+.wave1-content{
+    padding: 8rem 1rem;
+}
+.wave1-content .small-ball{
+    position: relative;
+}
+.small-ball h4{
+    position: absolute;
+    top: 2.5rem;
+    left: 1.1rem;
+}
+.white-5-ball h5{
+    margin-top: -3.5rem;
+}
+.white-5-ball p{
+   margin-top: 2.5rem; 
+   margin-bottom: 0.4rem;
+   font-size:1.2rem;
+}
+.white-5-ball small{
+    font-size: 0.7rem;
+}
+
+
+/* -----------aboutUs------------ */
+
+.aboutUs{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.aboutUs small{
+    font-size: 12px;
+}
+.company-content{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.company-content ul{
+    margin-left: 3rem;
+}
+.subscribe{
+    width: 65%;
+    margin: auto;
+    margin-top: 0.5rem;
+ }
+ .navbar{
+    padding-top: 1rem;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:522px){
+
+    /* ---------contact--------- */
+
+.contact i{
+    
+    font-size: 9px;
+    padding-right: 0.2rem;
+}
+.email i,small{
+    font-size: 10px; 
+}
+
+
+ /* ----------header------------- */
+ .header{
+    margin-top: 2.1rem;
+}
+.header-content{
+    width: 85%;
+}
+.header-content h5{
+    font-size: 1.1rem;
+}
+.header-content h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.header-content button{
+    margin-top: 0rem;
+    font-size: 10px;
+    padding: 0.5rem 1rem;
+}
+.header-img img{
+    width: 100%;
+}
+
+    /* -------bubble part------- */
+    .bubble{
+        display: block;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 4rem;
+    
+    }
+    .bubble{
+        margin-top: 3rem;
+    }
+
+.bubble1{
+    margin-bottom: 1rem;
+    width: 65%;
+    margin: auto;
+}
+
+.red-bubble{
+    margin-left:0;
+    margin-right:0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 65%;
+    margin: auto;
+    
+ }
+ .red-bubble img{
+    width:100%;
+ }
+
+.bubble2{
+    width: 65%;
+    margin: auto;
+} 
+
+/* ----------join-------- */
+.input{
+    display: block;
+}
+.input input{
+    margin-bottom: 0.5rem;
+}
+
+/* ............footer------------ */
+.footer-content{
+    font-size: 10px;
+}
+.footer-content .social-icons i{
+    margin-left: 0.5rem;
+}
+
+/* --------------certificate----------- */
+.certificate-content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ------------join------------ */
+.join{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.navbar{
+    padding-top: 0.5rem;
+}
+
+}
+
+@media screen and (max-width:434px){
+     /* ----------------courses--------- */
+     .wave1-content{
+        padding: 13rem 1.2rem 9rem 1.2rem ;
+    }
+    .small-ball{
+        margin-bottom: 5rem;
+    }
+
+/* ----------header------------- */
+.header{
+    margin-top: 1.7rem;
+}
+.header-content{
+    width: 100%;
+}
+.header-content h5{
+    font-size: 0.85rem;
+}
+.header-content h1{
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+.header-content p{
+    font-size: 0.4;
+}
+.header-img img{
+    width: 100%;
+}
+
+    /* ---------contact--------- */
+
+    .contact i{
+        font-size: 7px;
+        padding-right: 0.1rem;
+    }
+    .email i,small{
+        font-size: 8px; 
+    }
+
+     /* -------bubble part------- */
+ .bubble{
+    width: 100%;
+}
+
+.bubble1{
+margin-bottom: 1rem;
+width: 80%;
+}
+
+.red-bubble{
+margin-bottom: 1rem;
+width: 83%;
+
+
+}
+.red-bubble img{
+width:100%;
+}
+
+.bubble2{
+width: 80%;
+} 
+
+.navbar{
+    padding-top: 0.4rem;
+}
+
+}
+
+@media screen and (max-width:344px){
+    /* ----------------courses--------- */
+    .wave1-content{
+        padding: 16rem 1.2rem 11rem 1.2rem ;
+    }
+    .small-ball{
+        margin-bottom: 5rem;
+    }
+
+    
+/* ----------header------------- */
+.big-blob{
+    height: 40vh;
+}
+.header{
+    margin-top: 1.5rem;
+}
+.header-content{
+    width: 100%;
+}
+.header-content h5{
+    font-size: 0.8rem;
+}
+.header-content h1{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.header-content p{
+    font-size: 0.6rem;
+}
+.header-content button{
+    margin-top: 0rem;
+    font-size: 10px;
+    padding: 0.5rem 1rem;
+}
+.header-img img{
+    width: 80%;
+}
+.logo{
+    width: 130px;
+}
+ 
+ /* -------bubble part------- */
+ .bubble{
+    width: 95%;
+}
+
+.bubble1{
+margin-bottom: 1rem;
+width: 80%;
+}
+
+.red-bubble{
+margin-bottom: 1rem;
+width: 83%;
+
+
+}
+.red-bubble img{
+width:100%;
+}
+
+.bubble2{
+width: 80%;
+} 
+.navbar{
+    padding-top: 0.2rem;
+}
+
+}
+
+@media screen and (max-width:330px){
+
+/* ---------contact--------- */
+.contact i{
+    font-size: 7px;
+    padding-right: 0rem;
+}
+.email i,small{
+    font-size: 7px;
+    
+}
+
+/* ----------------feedback---------------*/
+.feedback img{
+    width: 85%;
+    margin-right: 0;
+}
+.fa-quote-left{
+    margin-right:0;
+}
+.feedback-paragraph{
+    font-size: 13px;
+}
+.arrows{
+    font-size: 1.3rem;
+}
+
+
+/* ----------header------------- */
+.big-blob{
+    height: 45vh;
+}
+.header{
+    margin-top: 1.2rem;
+}
+.header-content{
+    width: 100%;
+}
+.header-content h5{
+    font-size: 0.6rem;
+}
+.header-content h1{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+.header-content p{
+    font-size: 0.6rem;
+}
+.header-content button{
+    margin-top: 0rem;
+    font-size: 8px;
+    padding: 0.3rem 0.8rem;
+}
+.header-img img{
+    width: 100%;
+}
+.logo{
+    width: 125px;
+}
+
+.navbar{
+    padding-top: 0.1rem;
+}
+
+}
+
